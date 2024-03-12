@@ -7,11 +7,11 @@ function validateSyntax() {
 
   if (regex.test(input)) {
     result = "Valid Syntax";
-    document.getElementById("redDot").innerText = "";
+    document.getElementById("redDot").style.visibility = "hidden";
     document.getElementById("greenDot").style.visibility = "visible";
   } else {
     result = "Invalid Syntax";
-    document.getElementById("redDot").innerText = "•";
+    document.getElementById("redDot").style.visibility = "visible";
     document.getElementById("greenDot").style.visibility = "hidden";
   }
   // Check if input starts with 'pet_' and followed by alphanumeric characters

@@ -51,14 +51,25 @@ button:hover {
 
 #redDot,
 #greenDot {
-  background-color: red;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   display: inline-block;
   margin-right: 5px;
 }
+.dot {
+  background-color: red; /* Default color for both dots */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px; /* Adds space between result text and dots */
+}
 
 #greenDot {
   background-color: green;
+}
+
+#redDot {
+  background-color: red;
 }
