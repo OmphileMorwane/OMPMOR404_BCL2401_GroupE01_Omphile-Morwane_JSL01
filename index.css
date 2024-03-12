@@ -48,28 +48,18 @@ button:hover {
 .emoji {
   font-size: 1.5em;
 }
-
-#redDot,
-#greenDot {
+.redDot,
+.greenDot {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   display: inline-block;
-  margin-right: 5px;
-}
-.dot {
-  background-color: red; /* Default color for both dots */
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-left: 5px; /* Adds space between result text and dots */
 }
 
-#greenDot {
+.greenDot {
   background-color: green;
 }
 
-#redDot {
+.redDot {
   background-color: red;
 }
