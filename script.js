@@ -6,9 +6,9 @@ function validateSyntax() {
   let regex = /^pet_[a-zA-Z0-9]+$/;
 
   if (regex.test(input)) {
-    result = 'Valid Syntax <span class="greenDot"></span>';
+    result = 'Valid Syntax <span class="valid"></span>';
   } else {
-    result = 'Invalid Syntax <span class="redDot"></span>';
+    result = 'Invalid Syntax <span class="invalid"></span>';
   }
   // Check if input starts with 'pet_' and followed by alphanumeric characters
 

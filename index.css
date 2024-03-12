@@ -37,29 +37,22 @@ button:hover {
   margin-top: 20px;
 }
 
-#result.valid {
-  color: #008000;
-}
-
-#result.invalid {
-  color: #ff4500;
-}
-
-.emoji {
-  font-size: 1.5em;
-}
-.redDot,
-.greenDot {
+.valid {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   display: inline-block;
+  background-color: #008000;
 }
 
-.greenDot {
-  background-color: green;
+.invalid {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #ff4500;
 }
 
-.redDot {
-  background-color: red;
+.emoji {
+  font-size: 1.5em;
 }
