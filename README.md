@@ -1,33 +1,24 @@
-# [JSL01] Submission: Syntax-Engine Interaction Challenge
+# [JSL01] Syntax-Engine Interaction Challenge
 
-You will: 
-1. Use the Starter Code Repo, 
-2. Code your solution,
-3. Commit changes to your repo
-3. Submit GitHub Repo Link to LMS [JSL01] Submission Project Tab
+## Overview
 
-Imagine you are building a virtual pet adoption website, and you need to create a JavaScript function that checks if the user has entered valid pet adoption details. Write a function that takes a string as input and validates if it follows a specific syntax, such as starting with "pet_" followed by a combination of letters and numbers. If the input follows the syntax, return "Valid Syntax," otherwise, return "Invalid Syntax."
+The objective of this project was to validate the Syntax function to check if the input string starts with "pet\_" and is followed by a combiantion of letters and numbers. If the input follows the correct syntax, the results were set to 'valid syntax' with a green circle next to it, otherwise, set to 'Invalid' with a red circke bext to it.
 
-![alt text](jsl_01_final_result.gif)
+## Reflections
 
-## Challenge Instructions
-1. In the script.js file, complete the validateSyntax function to check if the input string starts with "pet_" and is followed by a combination of letters and numbers.
-2. If the input follows the correct syntax, set result to "Valid Syntax." Otherwise, set it to "Invalid Syntax."
-3. Test your function by entering different strings in the input box and clicking the validate button.
+### Areas of Mastery
 
-## How to Test 
-- Run the index.html challenge in a browser.
-- Enter different pet adoption details in the input box and click the validate button to see the results.
-- Make sure your solution works for a variety of inputs.
-- Open the console and debug your code until there are no errors.
+**JavaScript Functionality**:
+No mastery as yet, as this is still an introduction to Javascript, but I understood the execution of the syntax correction so well that Inow can say I master using 'if,else' contitional statements.
 
-## Instructions for Running the Code
-1. Save the HTML, CSS, and JavaScript files in a folder.
-2. Open the folder in VSCode.
-3. Right-click on index.html and open with a browser (use Live Server if available).
-4. Modify the script.js file to correct the syntax errors and save the file.
-5. Refresh your browser to view the changes.
+### Challenges Faced :
 
-This challenge helps students practice basic string manipulation and validation in JavaScript, along with simple DOM manipulation to create an interactive and user-friendly interface.
+I had first added the circles on HTML and they appeared below the results, so I had to put them on my javascript, next to the resutls section so that they can both appear together.
 
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pqPae6ZH7
+### Areas for Improvement
+
+Practice the whole course to get comfortable using Javascript.
+
+## Overall Learning Experience
+
+I learned regular expressions, which are patterns used to validate strings, helping me enforce specific input formats. I also learned how to incorporate conditional statements to make decisions in code execution based on certain conditions which enhanced my ability to create logic-driven applications.
